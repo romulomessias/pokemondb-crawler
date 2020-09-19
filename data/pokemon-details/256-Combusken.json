@@ -1,0 +1,68 @@
+{
+    "generation": 3,
+    "number": "256",
+    "defaultName": "Combusken",
+    "types": [
+        "fire",
+        "fighting"
+    ],
+    "forms": [
+        "Combusken"
+    ],
+    "stats": {
+        "Combusken": {
+            "hp": {
+                "base": "60",
+                "min": "230",
+                "max": "324"
+            },
+            "attack": {
+                "base": "85",
+                "min": "157",
+                "max": "295"
+            },
+            "defense": {
+                "base": "60",
+                "min": "112",
+                "max": "240"
+            },
+            "spAtk": {
+                "base": "85",
+                "min": "157",
+                "max": "295"
+            },
+            "spDef": {
+                "base": "60",
+                "min": "112",
+                "max": "240"
+            },
+            "speed": {
+                "base": "55",
+                "min": "103",
+                "max": "229"
+            }
+        }
+    },
+    "info": {
+        "Combusken": {
+            "number": "256",
+            "species": "Young Fowl Pokémon",
+            "height": "0.9 m (2′11″)",
+            "weight": "19.5 kg (43.0 lbs)",
+            "types": [
+                "fire",
+                "fighting"
+            ],
+            "abilities": [
+                {
+                    "name": "Blaze",
+                    "isHidden": false
+                },
+                {
+                    "name": "Speed Boost",
+                    "isHidden": true
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "generation": 5,
+    "number": "499",
+    "defaultName": "Pignite",
+    "types": [
+        "fire",
+        "fighting"
+    ],
+    "forms": [
+        "Pignite"
+    ],
+    "stats": {
+        "Pignite": {
+            "hp": {
+                "base": "90",
+                "min": "290",
+                "max": "384"
+            },
+            "attack": {
+                "base": "93",
+                "min": "171",
+                "max": "313"
+            },
+            "defense": {
+                "base": "55",
+                "min": "103",
+                "max": "229"
+            },
+            "spAtk": {
+                "base": "70",
+                "min": "130",
+                "max": "262"
+            },
+            "spDef": {
+                "base": "55",
+                "min": "103",
+                "max": "229"
+            },
+            "speed": {
+                "base": "55",
+                "min": "103",
+                "max": "229"
+            }
+        }
+    },
+    "info": {
+        "Pignite": {
+            "number": "499",
+            "species": "Fire Pig Pokémon",
+            "height": "1.0 m (3′03″)",
+            "weight": "55.5 kg (122.4 lbs)",
+            "types": [
+                "fire",
+                "fighting"
+            ],
+            "abilities": [
+                {
+                    "name": "Blaze",
+                    "isHidden": false
+                },
+                {
+                    "name": "Thick Fat",
+                    "isHidden": true
+                }
+            ]
+        }
+    }
+}

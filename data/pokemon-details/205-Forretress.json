@@ -1,0 +1,68 @@
+{
+    "generation": 2,
+    "number": "205",
+    "defaultName": "Forretress",
+    "types": [
+        "bug",
+        "steel"
+    ],
+    "forms": [
+        "Forretress"
+    ],
+    "stats": {
+        "Forretress": {
+            "hp": {
+                "base": "75",
+                "min": "260",
+                "max": "354"
+            },
+            "attack": {
+                "base": "90",
+                "min": "166",
+                "max": "306"
+            },
+            "defense": {
+                "base": "140",
+                "min": "256",
+                "max": "416"
+            },
+            "spAtk": {
+                "base": "60",
+                "min": "112",
+                "max": "240"
+            },
+            "spDef": {
+                "base": "60",
+                "min": "112",
+                "max": "240"
+            },
+            "speed": {
+                "base": "40",
+                "min": "76",
+                "max": "196"
+            }
+        }
+    },
+    "info": {
+        "Forretress": {
+            "number": "205",
+            "species": "Bagworm Pokémon",
+            "height": "1.2 m (3′11″)",
+            "weight": "125.8 kg (277.3 lbs)",
+            "types": [
+                "bug",
+                "steel"
+            ],
+            "abilities": [
+                {
+                    "name": "Sturdy",
+                    "isHidden": false
+                },
+                {
+                    "name": "Overcoat",
+                    "isHidden": true
+                }
+            ]
+        }
+    }
+}

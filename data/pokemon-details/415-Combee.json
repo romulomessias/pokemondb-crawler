@@ -1,0 +1,68 @@
+{
+    "generation": 4,
+    "number": "415",
+    "defaultName": "Combee",
+    "types": [
+        "bug",
+        "flying"
+    ],
+    "forms": [
+        "Combee"
+    ],
+    "stats": {
+        "Combee": {
+            "hp": {
+                "base": "30",
+                "min": "170",
+                "max": "264"
+            },
+            "attack": {
+                "base": "30",
+                "min": "58",
+                "max": "174"
+            },
+            "defense": {
+                "base": "42",
+                "min": "80",
+                "max": "201"
+            },
+            "spAtk": {
+                "base": "30",
+                "min": "58",
+                "max": "174"
+            },
+            "spDef": {
+                "base": "42",
+                "min": "80",
+                "max": "201"
+            },
+            "speed": {
+                "base": "70",
+                "min": "130",
+                "max": "262"
+            }
+        }
+    },
+    "info": {
+        "Combee": {
+            "number": "415",
+            "species": "Tiny Bee Pokémon",
+            "height": "0.3 m (1′00″)",
+            "weight": "5.5 kg (12.1 lbs)",
+            "types": [
+                "bug",
+                "flying"
+            ],
+            "abilities": [
+                {
+                    "name": "Honey Gather",
+                    "isHidden": false
+                },
+                {
+                    "name": "Hustle",
+                    "isHidden": true
+                }
+            ]
+        }
+    }
+}
