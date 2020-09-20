@@ -26,7 +26,7 @@ getPokemonList().then((pokemon) => {
       };
 
       fs.writeFileSync(
-        dataFolder + `/pokemon-details/${it.number}-${it.defaultName}.json`,
+        dataFolder + `/pokemon-details/${it.number}.json`,
         JSON.stringify(tmpPokemon[current], null, 4)
       );
 

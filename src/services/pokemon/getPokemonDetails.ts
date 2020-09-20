@@ -38,25 +38,29 @@ export async function getPokemonData(pokemonName: string) {
     const { document } = window;
 
     let formsElements = getPokemonForms(document);
-
+    let formsDetails = {};
     let forms = [];
-    let stats = {};
-    let info = {};
+
+    const formNameToSlug = (formName: string) => {
+      const [first, ...parts] = formName.split(" ");
+
+      return [first.toLowerCase(), ...parts].join("");
+    };
 
     formsElements.forEach((it) => {
-      console.log(`\t ${it.name}`);
-      forms.push(it.name);
-      let tmpStats = getPokemonStats(it.element);
-      let tmpInfo = getPokemonBasicInfo(it.element);
+      console.log(`\t ${it.name} - ${formNameToSlug(it.name)}`);
 
-      stats[it.name] = { ...tmpStats };
-      info[it.name] = { ...tmpInfo };
+      forms.push(it.name);
+
+      let stats = getPokemonStats(it.element);
+      let info = getPokemonBasicInfo(it.element);
+
+      formsDetails[formNameToSlug(it.name)] = { name: it.name, stats, info };
     });
 
     data = {
       forms,
-      stats,
-      info,
+      formsDetails,
     };
 
     console.timeEnd(pokemonName);
@@ -120,7 +124,7 @@ function getPokemonBasicInfo(document: Element) {
   function extractRegularAbilities(element: HTMLTableRowElement) {
     const [_, contentElement] = Array.from(element.children);
     const abilitiesElements = Array.from(contentElement.children);
-   
+
     function getAbility(element: Element) {
       const [abilityElement] = Array.from(element.children);
       const innerText = element.textContent;
